@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Wamu</string>
+    <string name="telephone">Telephone</string>
+    <string name="pin">Pin</string>
+    <string name="sign_in">Sign in</string>
+    <string name="full_names">Full Names</string>
+    <string name="email_address">Email Address</string>
+    <string name="sign_up">Sign up</string>
+    <string name="mobile_money">Mobile Money</string>
+    <string name="icon">Icon</string>
+    <string name="personal_wallet">Personal Wallet</string>
+    <string name="amount_ugx_30000">Ugx 30000</string>
+    <string name="fees_ugx50000">Fees Ugx50000</string>
+    <string name="_2019_05_01_12_03">2019-05-01 12:03</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="ugx_2_000_000">UGX 2,000,000</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="create_group">Create Group</string>
+    <string name="your_groups">Your Groups</string>
+</resources>

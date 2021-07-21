@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#e53265</color>
+    <color name="background_200">#25283a</color>
+    <color name="background_500">#1e2130</color>
+    <color name="background_700">#11121d</color>
+    <color name="teal_700">#2fd6b5</color>
+    <color name="purple">#8838ff</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="info_blue_200">#28acf6</color>
+    <color name="info_blue_500">#40b5f6</color>
+    <color name="info_blue_700">#59bef6</color>
+
+    <color name="gray_200">#979bb0</color>
+    <color name="gray_500">#575c75</color>
+    <color name="gray_700">#454a61</color>
+    <color name="gray_900">#262a33</color>
+
+    <color name="field_background">#454a61</color>
+    <color name="field_boarder">#262a33</color>
+</resources>

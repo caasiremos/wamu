@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:layout_marginBottom="2dp"
+    android:background="@color/background_500">
+
+    <LinearLayout
+        android:id="@+id/layout_transaction_direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_200"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/mobile_money"
+            android:textColor="@color/gray_200" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_trending_flat"
+            app:tint="@color/info_blue_200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/personal_wallet"
+            android:textColor="@color/gray_200" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_amount_transferred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/amount_ugx_30000"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_transaction_direction" />
+    <TextView
+        android:id="@+id/txt_transaction_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="14sp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/fees_ugx50000"
+        android:textColor="@color/gray_200"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_amount_transferred" />
+    <TextView
+        android:id="@+id/txt_transaction_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="12sp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/_2019_05_01_12_03"
+        android:textColor="@color/info_blue_700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_transaction_fee" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
