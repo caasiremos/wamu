@@ -16,6 +16,6 @@
     <string name="ugx_2_000_000">UGX 2,000,000</string>
     <string name="deposit">Deposit</string>
     <string name="withdraw">Withdraw</string>
-    <string name="create_group">Create Group</string>
+    <string name="create_group">CREATE GROUP</string>
     <string name="your_groups">Your Groups</string>
 </resources>

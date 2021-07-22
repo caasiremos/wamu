@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_layout"
+    style="@style/card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#121522">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#121522"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/group_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:contentDescription="@string/create_group"
+            android:src="@drawable/ic_groups"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/teal_700" />
+
+        <TextView
+            android:id="@+id/txt_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:textColor="@color/gray_200"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/group_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Code Group" />
+
+        <TextView
+            android:id="@+id/txt_group_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/info_blue_100"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/group_icon"
+            app:layout_constraintTop_toBottomOf="@+id/txt_group_name"
+            tools:text="Balance: UGX 30,000" />
+
+        <TextView
+            android:id="@+id/txt_number_of_members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/gray_200"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/group_icon"
+            app:layout_constraintTop_toBottomOf="@+id/txt_group_balance"
+            tools:text="30 Members" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -8,6 +8,7 @@
     <color name="purple">#8838ff</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="info_blue_100">#A4DBF4</color>
     <color name="info_blue_200">#28acf6</color>
     <color name="info_blue_500">#40b5f6</color>
     <color name="info_blue_700">#59bef6</color>
