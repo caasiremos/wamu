@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragmen"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/fragmentNotice"
+            android:icon="@drawable/ic_subject"
+            android:title="@string/transaction" />
+        <item
+            android:id="@+id/fragmentTimetable"
+            android:icon="@drawable/ic_person"
+            android:title="@string/profile" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/group"
+            android:title="Group">
+            <menu>
+                <item
+                    android:id="@+id/fragmentProfile"
+                    android:icon="@drawable/ic_person"
+                    android:title="@string/logout" />
+
+                <item
+                    android:id="@+id/fragmentSetting"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/settings" />
+                <item
+                    android:id="@+id/ic_about"
+                    android:icon="@drawable/ic_info"
+                    android:title="@string/about" />
+            </menu>
+        </item>
+    </group>
+</menu>
